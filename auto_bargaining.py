@@ -11,7 +11,6 @@ def just_open(filename):
     xlBook.Save()
     xlBook.Close()
 
-
 end_price = float(input('请输入最终谈价金额：'))
 souce_file = 'F:\\谈价会议纪要\\程序化谈价\\'
 input_name = input('请输入待谈价文件名：')
